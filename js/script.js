@@ -28,4 +28,4 @@ window.onbeforeunload = () => {
 var audio = document.getElementById('myAudio');
 
 // Memainkan audio saat halaman dimuat
-audio.autoplay('myAudio');
+audio.play('myAudio');
