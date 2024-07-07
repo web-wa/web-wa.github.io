@@ -24,8 +24,9 @@ window.onbeforeunload = () => {
   }
 };
 
-// Mendapatkan elemen audio
-var audio = document.getElementById('myAudio');
 
-// Memainkan audio saat halaman dimuat
-audio.play('myAudio');
+  document.addEventListener('DOMContentLoaded', function() {
+    var audio = document.getElementById('myAudio');
+    audio.play();
+  });
+
