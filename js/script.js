@@ -23,3 +23,9 @@ window.onbeforeunload = () => {
   form.reset();
   }
 };
+
+// Mendapatkan elemen audio
+var audio = document.getElementById('myAudio');
+
+// Memainkan audio saat halaman dimuat
+audio.play('myAudio');
